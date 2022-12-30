@@ -356,6 +356,11 @@ local holsterableWeapons = {
 	[GetHashKey("weapon_mossberg")] = 0.7,
 	[GetHashKey("weapon_remington")] = 0.7,
 	[GetHashKey("weapon_scarh")] = 0.5,
+	[GetHashKey("weapon_glock22")] = 0.3,
+	[GetHashKey("weapon_glock18c")] = 0.3,
+	[GetHashKey("weapon_mp5")] = 0.7,
+	[GetHashKey("weapon_aks74")] = 0.5,
+	[GetHashKey("weapon_ak74")] = 0.5,
 ```
 ## Replace the next code in ``qb-jewelery/config.lua``
 
@@ -453,6 +458,7 @@ Config.WhitelistedWeapons = {
 ## Replace the next code in ``qb-ambulancejob/config.lua``
 
 ```lua
+    -- Custom Weapons
     --[[ HIGH CALIBER ]]
     [`WEAPON_DE`] = Config.WeaponClasses['HIGH_CALIBER'],
     [`WEAPON_M4`] = Config.WeaponClasses['HIGH_CALIBER'],
@@ -464,15 +470,20 @@ Config.WhitelistedWeapons = {
     [`WEAPON_MK14`] = Config.WeaponClasses['HIGH_CALIBER'],
     [`WEAPON_M110`] = Config.WeaponClasses['HIGH_CALIBER'],
     [`WEAPON_HUNTINGRIFLE`] = Config.WeaponClasses['HIGH_CALIBER'],
+    [`WEAPON_AKS74`] = Config.WeaponClasses['HIGH_CALIBER'],
+    [`WEAPON_AK74`] = Config.WeaponClasses['HIGH_CALIBER'],
     --[[ MEDIUM CALIBER ]]
     [`WEAPON_UZI`] = Config.WeaponClasses['MEDIUM_CALIBER'],
     [`WEAPON_MAC10`] = Config.WeaponClasses['MEDIUM_CALIBER'],
     [`WEAPON_MP9`] = Config.WeaponClasses['MEDIUM_CALIBER'],
+    [`WEAPON_MP5`] = Config.WeaponClasses['MEDIUM_CALIBER'],
     --[[ SMALL CALIBER ]]
     [`WEAPON_GLOCK17`] = Config.WeaponClasses['SMALL_CALIBER'],
     [`WEAPON_M9`] = Config.WeaponClasses['SMALL_CALIBER'],
     [`WEAPON_M1911`] = Config.WeaponClasses['SMALL_CALIBER'],
     [`WEAPON_FNX45`] = Config.WeaponClasses['SMALL_CALIBER'],
+    [`WEAPON_GLOCK22`] = Config.WeaponClasses['SMALL_CALIBER'],
+    [`WEAPON_GLOCK18C`] = Config.WeaponClasses['SMALL_CALIBER'],
     --[[ SHOTGUN ]]
     [`WEAPON_REMINGTON`] = Config.WeaponClasses['SHOTGUN'],
     [`WEAPON_MOSSBERG`] = Config.WeaponClasses['SHOTGUN'],
