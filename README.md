@@ -125,6 +125,8 @@ This is a **FREE** release!
     ['weapon_glock22'] 			= 0.15,
     ['weapon_aks74'] 			= 0.15,
     ['weapon_ak74'] 			= 0.15,
+    ['weapon_karambit'] 	        = 0.15,
+    ['weapon_colbaton'] 	        = 0.15,
 ```
 ## Drop the next code in ``qb-weapons/config.lua`` (about line 209)
 
@@ -490,8 +492,10 @@ Config.WhitelistedWeapons = {
     --[[ CUTTING ]]
     [`WEAPON_SHIV`] = Config.WeaponClasses['CUTTING'],
     [`WEAPON_KATANA`] = Config.WeaponClasses['CUTTING'],
+    [`WEAPON_KARAMBIT`] = Config.WeaponClasses['CUTTING'],
     --[[ HEAVY IMPACT ]]
     [`WEAPON_SLEDGEHAMMER`] = Config.WeaponClasses['HEAVY_IMPACT'],
+    [`WEAPON_COLBATON`] = Config.WeaponClasses['HEAVY_IMPACT'],
 ```
 
 ## Add the next code to your `BackItems.lua` [devyn-backitems](https://github.com/devin-monro/devyn-backitems) script (OPTIONAL)
